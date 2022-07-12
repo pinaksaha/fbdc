@@ -11,3 +11,12 @@
     numberOfUserss is not strickly required, it deulfts 1
     if numberOfUsers is provided it must be an integer
 
+# Structure
+
+```
+\App
+    \Gateway\RandomUserGateway - Gets data from API
+    \Formatter\RandomPersonFormatter - Formatts data for user
+    \Parser\RandomUserParser - Parses & Normalizw API Data
+    \Controller\RandomPersonController - Rturns user data based on request
+```
